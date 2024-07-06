@@ -1,0 +1,124 @@
+.logo{
+    height: 60px;
+    width: 80px;
+}
+.logo img{
+    width: 170px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+.right ul{
+    display: flex;
+    gap: 22px;
+}
+.right ul li{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.right ul li span{
+    padding: 0 5px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 26px;
+}
+.first span{
+    font-size: 48px;
+    /* margin-top: 15px; */
+}
+.first span img{
+    height: 33px;
+}
+.first p{
+    font-size: 24px;
+    text-align: center;
+    width: 64vw;
+}
+.first button{
+    height: 46px;
+    width: 288px;
+    color: white;
+    background-color: #00b6d1;
+    border: none;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+}
+.first button:hover{
+    background-color: #029cb4;
+    cursor: pointer;
+}
+.second {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    margin-top: 64px;
+    margin-left: 19vw;
+}
+.big{
+    font-size: 30px;
+}
+.small{
+    font-size: 15px;
+    margin-top: 8px;
+}
+.second div img{
+    height: 65px;
+    width: 75px;
+}
+.item{
+    text-align: center;
+    /* margin: 40px; */
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #c3d7e82e;
+    height: 130px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 35px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.btn{
+    height: 35px;
+    width: 140px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.green{
+    background-color: rgb(45 195 63);
+}
+.green:hover{
+    background-color: rgb(93 217 108);
+}
+.blue{
+    background-color: #00b6d1;
+}
+.blue:hover{
+    background-color: #029cb4;
+}
+@media screen and (max-width: 1150px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}

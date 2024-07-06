@@ -1,0 +1,353 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    background-image: url("/task2/images/newbg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: max(1300px, 100vw);
+    height: 100vh;
+    width: auto;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.main {
+    height: 100%;
+    width: auto;
+    opacity: 0.7;
+    position: relative;
+    background-color: black;
+}
+
+.header {
+    height: 50px;
+    width: 75vw;
+    position: absolute;
+    margin: 15px 15vw;
+    flex-direction: row;
+}
+
+.logo img {
+    position: absolute;
+    z-index: 10;
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    margin-top: 10px;
+}
+
+.logo span {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 10;
+}
+
+.buttons {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blk {
+    width: 110px;
+    height: 33px;
+    margin-bottom: 3px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.red {
+    height: 33px;
+    width: 80px;
+    margin-bottom: 3px;
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+
+#language {
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+.second {
+    color: white;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 15vw;
+
+}
+
+.boobzy {
+    margin: 100px;
+}
+
+.boobzy h1 {
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.boobzy p {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.boobies h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.boobies div {
+    margin-top: 10px;
+}
+
+.hero {
+    margin-top: 10px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 10px;
+}
+
+.email input {
+    padding: 12px 35px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    font-weight: 600;
+}
+
+.hero button {
+    padding: 12px 35px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(84, 82, 82);
+}
+
+.tv1valapage {
+    padding: 4.5rem 0;
+    min-height: auto;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.dabba {
+    display: flex;
+    flex-direction: row;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.text h2 {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.text p {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.media {
+    display: flex;
+}
+
+.image {
+    display: flex;
+    width: 90px;
+    height: 55vh;
+    position: relative;
+}
+
+.image img {
+    width: 30vw;
+}
+
+.video {
+    display: flex;
+}
+
+.video video {
+    width: 20vw;
+    height: 55vh;
+    margin-top: -19px;
+}
+
+.pyaribetivalapage {
+    background-color: black;
+    color: white;
+    display: flex;
+    position: relative;
+}
+
+.pyaribetikacontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    gap: 20px;
+}
+
+.pyaribetikacontent h2 {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.pyaribetikacontent p {
+    font-size: 1.5em;
+    font-weight: 400;
+    max-width: 20xw;
+}
+
+.pyaribetikabox {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding: 0.5rem 0.75rem;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 0.75rem;
+    z-index: 1;
+    bottom: 10px;
+    margin-left: 13rem;
+}
+
+.Strangethingsvalaimage {
+    margin: 0 1rem 0 0;
+}
+
+.Strangethingsvalaimage img {
+    height: 5rem;
+}
+
+.bakchodi {
+    padding: 0 3px;
+    text-align: left;
+}
+
+.bakchodi :nth-child(1) {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.bakchodi :nth-child(2) {
+    color: blue;
+}
+
+.saifubhaikivideo {
+    margin-left: 30vw;
+}
+
+.saifubhaikivideo video {
+    position: absolute;
+    right: 24vw;
+    height: 26vh;
+    width: 20vw;
+    margin-top: 2vw;
+}
+
+.faq {
+    background-color: black;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    padding: 34px;
+    color: white;
+}
+
+.faqheader {
+    display: flex;
+    font-size: 2rem;
+    font-weight: 900;
+    justify-content: center;
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+.wtf {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 50px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
